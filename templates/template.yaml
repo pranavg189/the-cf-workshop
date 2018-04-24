@@ -16,7 +16,7 @@ Resources:
 
     Properties:
       ImageId: ami-b46f48db
-      InstanceType: m5.large
+      InstanceType: m8.large
       SecurityGroups:
         - !Ref securityGroup
       UserData:
